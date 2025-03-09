@@ -1,23 +1,25 @@
 import { HiShieldCheck } from "react-icons/hi";
 import { MdCancel, MdAnalytics } from "react-icons/md";
+
 const data = [
   {
-    icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    icon: <HiShieldCheck />,
+    heading: "Trusted & Verified Rentals",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Every property on our platform undergoes rigorous verification, ensuring a secure and hassle‐free rental experience right in the heart of Indore.",
   },
   {
     icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    heading: "Transparent Pricing",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Our rental rates are clear and competitive, giving you the best deals in Indore without any unexpected surprises or hidden fees.",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "Best Value Homes",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Discover premium residences offering top-notch amenities and exceptional comfort. Experience a perfect blend of luxury and affordability in Indore.",
   },
 ];
+
 export default data;

@@ -9,6 +9,10 @@
   --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
 }
 
+ ::-webkit-scrollbar{
+  width: 0;
+ }
+
 * {
   margin: 0;
   padding: 0;
@@ -82,8 +86,22 @@ a {
   font-weight: 600;
 }
 
+.button{
+  font-weight: 500;
+  padding: .6rem 1.4rem;
+  color: white;
+  background: var(--blue-gradient);
+  border-radius: 4px;
+  border: none;
+  transition: all 300ms ease-in-out;
+}
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 /* media queries */
-@media (min-width: 1536px) {
+@media (min-width: 1280px) {
   .innerWidth {
     max-width: 1280px;
     margin: auto;

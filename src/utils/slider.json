@@ -1,38 +1,74 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Vijay Residency",
+    "price": "XXXX",
+    "detail": "Opp. C21 Mall, Vijay Nagar, Indore, MP",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Palasia Heights",
+    "price": "XXXX",
+    "detail": "MG Road, New Palasia, Indore, MP",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Indore Garden",
+    "price": "XXXX",
+    "detail": "Behind Sarafa Bazaar, Indore, MP",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Shivaji Residency",
+    "price": "XXXX",
+    "detail": "Chhappan Dukan Area, Indore, MP",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Mhow Residency",
+    "price": "XXXX",
+    "detail": "Near Mhow Railway Station, Indore, MP",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Lakshmi Enclave",
+    "price": "XXXX",
+    "detail": "Opp. Indrapuri, Indore, MP",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Elegant Heights",
+    "price": "XXXX",
+    "detail": "R.C. Makhija Road, Indore, MP",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Saraswati Residency",
+    "price": "XXXX",
+    "detail": "Near Central Bus Stand, New Indore, MP",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Rajwada Residency",
+    "price": "XXXX",
+    "detail": "Close to Rajwada, Indore, MP",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Crystal Residency",
+    "price": "XXXX",
+    "detail": "Opp. Malhar Complex, Indore, MP",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Narmada Heights",
+    "price": "XXXX",
+    "detail": "Along Narmada Road, Indore, MP",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Modern Residency",
+    "price": "XXXX",
+    "detail": "Behind Indore Stadium, Indore, MP",
     "image": "./r3.png"
   }
 ]
