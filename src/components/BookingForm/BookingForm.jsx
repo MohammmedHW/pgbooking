@@ -50,7 +50,7 @@ const BookingForm = () => {
     if (formData.paymentType === "Online") {
       // Set up Razorpay options for online payment
       const options = {
-        key: "YOUR_TEST_KEY_ID", // Replace with your Razorpay test key ID
+        key: "rzp_test_URe1o2PPOt9CiG", // Replace with your Razorpay test key ID
         amount: parseInt(residencyData.price) * 100, // Amount in paise
         currency: "INR",
         name: residencyData.name,
@@ -271,7 +271,7 @@ const BookingForm = () => {
                     />
                   </div>
                   <div className="form-group">
-                    <label>Date of Booking</label>
+                    <label>Date of Booking <span className="required">*</span></label>
                     <input
                       type="date"
                       name="dateOfBooking"
@@ -281,7 +281,7 @@ const BookingForm = () => {
                     />
                   </div>
                   <div className="form-group">
-                    <label>Duration (in months)</label>
+                    <label>Duration (in months)<span className="required">*</span></label>
                     <input
                       type="number"
                       name="duration"
