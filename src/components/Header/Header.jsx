@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="h-container flexCenter paddings innerWidth">
-        <img src="/logo.png" alt="Logo" width={100} />
+        <img src="/logo.jpeg" alt="Logo" width={100} />
         <OutsideClickHandler
           onOutsideClick={(e) => {
             if (menuIconRef.current && menuIconRef.current.contains(e.target)) {

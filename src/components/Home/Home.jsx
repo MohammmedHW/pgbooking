@@ -25,21 +25,21 @@ const Home = () => {
 
   const locations = [
     {
-      label: "Location 1",
+      label: "Address 1",
       address:
         "3A starling park Bunglow nr starling hospital Gurukul memnagar Ahmedabad, 380052",
       mapUrl:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.2987555269424!2d72.52773437477093!3d23.049506215323678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84afa873ac69%3A0xa85e037b9922fe81!2sSterling%20Park!5e0!3m2!1sen!2sin!4v1744537059110!5m2!1sen!2sin",
     },
     {
-      label: "Location 2",
+      label: "Address 2",
       address:
         "1&4 optima Bunglow plot no 60 nr vishwbharti school bhaikaka nagar Thaltej metrostend Thaltej Ahmedabad, 380059",
       mapUrl:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.021965659929!2d72.51245511565278!3d23.053621310568833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b5429c635a7%3A0x652b4b54d99a963d!2s60%2C%20Bhaikakanagar%2C%20Thaltej%2C%20Ahmedabad%2C%20Gujarat%20380059!5e0!3m2!1sen!2sin!4v1744544262995!5m2!1sen!2sin",
     },
     {
-      label: "Location 3",
+      label: "Address 3",
       address:
         "Bunglow no 238 Nr magan vadi ni same premchand nagar Mansi setelight Ahmedabad, 380054",
       mapUrl:
@@ -187,7 +187,7 @@ const Home = () => {
                     </div>
                     <div className="flexColStart detail">
                       <span className="primaryText">Visit</span>
-                      <span className="secondaryText">"Location"</span>
+                      <span className="secondaryText">Ahemdabad</span>
                     </div>
                   </div>
                   <div className="flexCenter button">
@@ -244,7 +244,7 @@ const Home = () => {
       <section className="g-wrapper">
         <div className="paddings innerWidth g-container">
           <div className="flexColCenter inner-container">
-            <span className="primaryText">Get Started with "Company"</span>
+            <span className="primaryText">Get Your Dream Place</span>
             <span className="secondaryText" style={{ maxWidth: "600px" }}>
               Take the first step toward a better living experience and find the
               perfect residence that truly feels like home.

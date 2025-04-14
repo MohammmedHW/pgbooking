@@ -1,4 +1,8 @@
 /* src/components/HomeIcons.css */
+
+.icon-wrapper {
+  background: rgba(128, 128, 128, 0.167);
+}
 .icon-container {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -16,12 +20,13 @@
   font-size: 3.5rem;
   color: rgb(87, 87, 87);
   fill: var(--blue);
+  background: white;
 }
 
 .icon-item p {
   margin-top: 0.85rem;
   font-size: 1rem;
-  color: rgb(140 139 139);
+  color: var(--blue);
 }
 
 .vdo-container{
