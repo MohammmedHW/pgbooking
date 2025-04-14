@@ -1,74 +1,74 @@
 [
   {
-    "name": "Vijay Residency",
+    "name": "3A Bungalow",
     "price": "XXXX",
-    "detail": "Opp. C21 Mall, Vijay Nagar, Indore, MP",
+    "detail": "Sterling park near Sterling Hospital Gurukul Memnagar Ahemdabad, 380052",
     "image": "./r1.png"
   },
   {
-    "name": "Palasia Heights",
+    "name": "1&4 Optima Bunglow",
     "price": "XXXX",
-    "detail": "MG Road, New Palasia, Indore, MP",
+    "detail": "Plot 60 near Vishwabharti school & Thaltej Metrostand Ahemdabad, 380059",
     "image": "./r2.png"
   },
   {
-    "name": "Indore Garden",
+    "name": "Bungalow 238",
     "price": "XXXX",
-    "detail": "Behind Sarafa Bazaar, Indore, MP",
+    "detail": "Near Magan Vadi ni samne Premchand Nagar Mansi Satellite Ahemdabad, 380054",
     "image": "./r3.png"
   },
   {
     "name": "Shivaji Residency",
     "price": "XXXX",
-    "detail": "Chhappan Dukan Area, Indore, MP",
+    "detail": "Upcoming...",
     "image": "./r1.png"
   },
   {
-    "name": "Mhow Residency",
+    "name": "Sai Residency",
     "price": "XXXX",
-    "detail": "Near Mhow Railway Station, Indore, MP",
+    "detail": "Upcoming...",
     "image": "./r2.png"
   },
   {
     "name": "Lakshmi Enclave",
     "price": "XXXX",
-    "detail": "Opp. Indrapuri, Indore, MP",
+    "detail": "Upcoming...",
     "image": "./r3.png"
   },
   {
     "name": "Elegant Heights",
     "price": "XXXX",
-    "detail": "R.C. Makhija Road, Indore, MP",
+    "detail": "Upcoming...",
     "image": "./r1.png"
   },
   {
     "name": "Saraswati Residency",
     "price": "XXXX",
-    "detail": "Near Central Bus Stand, New Indore, MP",
+    "detail": "Upcoming...",
     "image": "./r2.png"
   },
   {
     "name": "Rajwada Residency",
     "price": "XXXX",
-    "detail": "Close to Rajwada, Indore, MP",
+    "detail": "Upcoming...",
     "image": "./r3.png"
   },
   {
     "name": "Crystal Residency",
     "price": "XXXX",
-    "detail": "Opp. Malhar Complex, Indore, MP",
+    "detail": "Upcoming...",
     "image": "./r1.png"
   },
   {
     "name": "Narmada Heights",
     "price": "XXXX",
-    "detail": "Along Narmada Road, Indore, MP",
+    "detail": "Upcoming...",
     "image": "./r2.png"
   },
   {
     "name": "Modern Residency",
     "price": "XXXX",
-    "detail": "Behind Indore Stadium, Indore, MP",
+    "detail": "Upcoming...",
     "image": "./r3.png"
   }
 ]
