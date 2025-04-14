@@ -1,0 +1,273 @@
+.form * {
+  color: white;
+}
+
+.booking-page-wrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.bh-wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+}
+
+.bh-wrapper::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/hero-img1.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.bh-container {
+  width: 100%;
+  gap: 2rem;
+  justify-content: flex-start;
+  border-radius: 24px;
+}
+
+.booking-form-container {
+  max-width: 900px;
+  width: 100%;
+}
+
+.form {
+  gap: 2rem;
+  padding: 4rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  background: rgba(88, 88, 88, 0.351);
+  backdrop-filter: blur(10px);
+}
+
+.form>:last-child {
+  justify-content: end;
+}
+
+.form-head {
+  color: white;
+}
+
+.form-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-head {
+  text-align: left;
+  width: 100%;
+  margin-bottom: -1rem;
+  font-size: 1rem;
+  color: orange;
+}
+
+.form-row {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2rem;
+}
+
+.form-group {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group>label {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+
+.form-group>input {
+  background: transparent;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.group-data {
+  margin-top: .5rem;
+}
+
+.required {
+  color: red;
+}
+
+.sub-btn {
+  background: var(--orange-gradient);
+  margin-top: 2rem;
+}
+
+.popup-overlay {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  max-width: 600px;
+  z-index: 1000;
+  max-width: 600px;
+  max-height: 550px;
+  border-radius: 16px;
+}
+
+.popup-content {
+  width: 100%;
+  max-width: 600px;
+  max-height: 550px;
+  background: #fff;
+  border-radius: 16px;
+  position: relative;
+  padding: 2rem;
+  /* border: 2px solid rgb(255, 255, 255); */
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  border-radius: 16px;
+  overflow: scroll;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--orange-gradient);
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+
+.popup-close svg {
+  height: 100%;
+  width: 100%;
+  fill: white;
+}
+
+
+.popup-content ul {
+  padding-left: 20px;
+}
+
+.popup-content h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: red;
+}
+
+.popup-content .orangeText {
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: .5rem;
+}
+
+.popup-content p,
+.popup-content li {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+
+.imp {
+  color: red;
+}
+
+
+
+
+@media screen and (max-width : 768px) {
+  .form-row {
+    flex-wrap: wrap;
+  }
+
+  .form>:nth-child(2)>.form-row .form-group {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width : 700px) {
+  .form {
+    padding: 2rem;
+  }
+
+  .popup-overlay {
+    padding: .75rem;
+  }
+
+  .popup-content {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width : 640px) {
+  .popup-content {
+    padding-top: 3rem;
+  }
+
+  .popup-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .popup-content .orangeText {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  .popup-content p,
+  .popup-content li {
+    font-size: .9rem;
+  }
+}
+
+
+@media screen and (max-width :400px) {
+  .form {
+    padding: 1rem;
+  }
+
+  .sub-btn {
+    margin-top: 0;
+  }
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input[type="date"] {
+  -moz-appearance: textfield;
+}
+
+input:-internal-autofill-selected {
+  background: transparent !important;
+}
