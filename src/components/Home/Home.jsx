@@ -17,6 +17,7 @@ import {
 import { BsFillChatDotsFill } from "react-icons/bs";
 import "./Home.css";
 import data from "../../utils/accordion";
+import AnimatedCards from "../AnimatedCards/AnimatedCards";
 
 const Home = () => {
   const [activeMapUrl, setActiveMapUrl] = useState(
@@ -119,6 +120,14 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section className="cat-wrapper" id="cat-wrapper">
+        <div className="paddings innerWidth flexCenter cat-container">
+        <AnimatedCards/>
+        </div>
+      </section>
+
+ 
 
       {/* CONTACT SECTION */}
       <section className="c-wrapper" id="c-wrapper">

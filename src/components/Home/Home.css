@@ -47,6 +47,15 @@
     font-size: 1.1rem;
 }
 
+/* CATEGORY SECTION */
+.cat-wrapper{
+    width: 100%;
+    background: #000000ee;
+}
+
+.cat-container{
+    width: 100%;
+}
 /* CONTACT SECTION */
 .c-container{
     justify-content: space-between;
