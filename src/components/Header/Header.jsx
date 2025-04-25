@@ -33,8 +33,14 @@ const Header = () => {
             <a href="#v-wrapper">Our Values</a>
             <a href="">Our Terms</a>
             <a href="">Our Policy</a>
-            <button className="button">
+            {/* <button className="button">
               <a href="#c-wrapper">Contact</a>
+            </button> */}
+            <button className="button login-btn">
+              <a href="#">Login</a>
+            </button>
+            <button className="button signup-btn">
+              <a href="#">Sign up</a>
             </button>
           </div>
         </OutsideClickHandler>

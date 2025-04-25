@@ -21,7 +21,15 @@
     display: none;
 }
 
-@media screen and (max-width :800px) {
+.login-btn{
+
+}
+
+.signup-btn{
+    background: white;
+    color: black;
+}
+@media screen and (max-width :900px) {
     .menu-icon{
         display: block;
     }
@@ -40,6 +48,10 @@
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
         transition: all 300ms ease-in;
         z-index: 2;
+    }
+    .signup-btn{
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
 }
 

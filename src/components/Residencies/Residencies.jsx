@@ -35,7 +35,7 @@ const Residencies = () => {
                   type: "spring"
                 }}
                 className="flexColStart r-card"
-                onClick={() => handleCardClick(card)}
+                // onClick={() => handleCardClick(card)}
                 style={{ cursor: "pointer" }}
               >
                 <img src={card.image} alt="Home-image" />
