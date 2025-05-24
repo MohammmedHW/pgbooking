@@ -1,5 +1,7 @@
 .f-container{
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.95);
+
 }
 
 .f-left{
@@ -10,8 +12,11 @@
     gap: 1.5rem;
     margin-top: 1.5rem;
     font-weight: 500;
+    color: white;
 }
-
+ .primaryText span{
+    color: white;
+}
 @media screen and (max-width: 640px) {
     .f-container{
         justify-content: center;

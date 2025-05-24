@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="h-container flexCenter paddings innerWidth">
-        <img src="/logo.jpeg" alt="Logo" width={100} />
+        <img src="/logo_new.png" alt="Logo" width={150} />
         <OutsideClickHandler
           onOutsideClick={(e) => {
             if (menuIconRef.current && menuIconRef.current.contains(e.target)) {
@@ -29,19 +29,21 @@ const Header = () => {
           }}
         >
           <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
+            <a href="">Home</a>
             <a href="#r-wrapper">Residencies</a>
             <a href="#v-wrapper">Our Values</a>
             <a href="">Our Terms</a>
             <a href="">Our Policy</a>
+            <a href="">Contact-Us</a>
             {/* <button className="button">
               <a href="#c-wrapper">Contact</a>
             </button> */}
-            <button className="button login-btn">
+            {/* <button className="button login-btn">
               <a href="#">Login</a>
             </button>
             <button className="button signup-btn">
               <a href="#">Sign up</a>
-            </button>
+            </button> */}
           </div>
         </OutsideClickHandler>
         <div

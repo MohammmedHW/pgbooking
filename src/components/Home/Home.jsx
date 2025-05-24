@@ -121,11 +121,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="cat-wrapper" id="cat-wrapper">
-        <div className="paddings innerWidth flexCenter cat-container">
-        <AnimatedCards/>
-        </div>
-      </section>
+      
 
  
 
@@ -180,12 +176,12 @@ const Home = () => {
                       <MdVideocam size={25} />
                     </div>
                     <div className="flexColStart detail">
-                      <span className="primaryText">Video Call</span>
-                      <span className="secondaryText">"detail"</span>
+                     <span className="primaryText">Email</span>
+                <span className="secondaryText">info@example.com</span>
                     </div>
                   </div>
                   <div className="flexCenter button">
-                    <a href="tel:+">Video Call Now</a>
+                    <a href="mailto:info@example.com">Send Email</a>
                   </div>
                 </div>
 
@@ -215,7 +211,7 @@ const Home = () => {
         </div>
 
         <div className="paddings innerWidth flexCenter m-container">
-          <div className="mapouter" style={mapouterStyle}>
+          {/* <div className="mapouter" style={mapouterStyle}>
             <div className="gmap_canvas" style={gmapCanvasStyle}>
               <iframe
                 width="100%"
@@ -228,9 +224,9 @@ const Home = () => {
                 title="Google Map"
               ></iframe>
             </div>
-          </div>
+          </div> */}
 
-          <div className="office-row">
+          {/* <div className="office-row">
             {locations.map((loc, index) => (
               <div className="offices" key={index}>
                 <div className="address">
@@ -245,12 +241,12 @@ const Home = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
       {/* CALL TO ACTION SECTION */}
-      <section className="g-wrapper">
+      {/* <section className="g-wrapper">
         <div className="paddings innerWidth g-container">
           <div className="flexColCenter inner-container">
             <span className="primaryText">Get Your Dream Place</span>
@@ -263,7 +259,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

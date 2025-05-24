@@ -1,5 +1,5 @@
 .h-wrapper {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .h-container {
@@ -7,13 +7,16 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: var(--secondary);
+    
 }
 
 .h-menu {
     gap: 2rem;
+    color: white;
 }
 
 .h-menu>*:hover {
+    color: orange; /* change color on hover */
     cursor: pointer;
 }
 
@@ -26,8 +29,8 @@
 }
 
 .signup-btn{
-    background: white;
-    color: black;
+    background: black;
+    color: white;
 }
 @media screen and (max-width :900px) {
     .menu-icon{
